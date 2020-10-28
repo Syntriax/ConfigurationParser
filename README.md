@@ -1,13 +1,13 @@
 # Configuration Parser
-Very simple, Header-only, key-value pair parser and generator.
+Very simple, Header-only, Key-Value pair Parser and Generator.
 
 To change the default assigner "=" there's a define named CONFIG_ASSIGNER in ConfigReader.h (33).
-```C
+```C++
 #define CONFIG_ASSIGNER "="
 ```
 
 #### Example
-```C
+```C++
 #include <iostream>
 #include "ConfigurationParser.h"
 
